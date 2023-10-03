@@ -1,39 +1,64 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Spock
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This site has been designed to target a younger audience during those in-between study times when they need to burn off some steam. It is a variant of the popular Rock-Paper-Scissors game with a twist that youngsters of all ages can enjoy. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The user faces off against the maschine in this game of chance, and everything is simple and easy to navigate and understand. The colors chosen were intended to be relaxing and communicate low pressure. Just a fun way to cool off the brain for a few minutes.
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![responsiveness check photo](assets/images/responscheck.png)
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Header
+    - The header acts as a simple and easy to read call to action.
+    - The font is clear and it is styled to flow harmoniously with the rest of the page.
 
-`http_server`
+![responsiveness check photo](assets/images/header.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Game Options
+    - The main game interface sits in the center of the and the user my choose of the five buttons to initiate the interactivity. 
+    - The functionality is intuitive.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![responsiveness check photo](assets/images/gamecontrols.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Game Results
+    - When a button is chosen, Javascript will capture the input and compare it to a randomly generated output by the Maschine. The result, and in this case winner, will be returned to the screen.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Footer
+    - The footer gives kind regards for engaging with the webpage.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![responsiveness check photo](assets/images/footer.png)
 
----
 
-Happy coding!
+## Testing
+
+- The page has been tested in multiple browsers.
+- The page returns the correct responses, reliably.
+- All text is readable.
+- Lighthouse scores can be found below.
+
+![responsiveness check photo](assets/images/lighthouse.png)
+
+### Validator Testing
+- No errors were returned when run through the W3C Validator
+- No errors were returned when run through the Jigsaw Validator
+- No errors were returned when run through JSHint
+
+![responsiveness check photo](assets/images/rpscodejshint.PNG)
+
+## Deployment
+
+- The site was deployed to Github Pages the steps to deployment are as follows:
+    - In the Github Repository, nabigate to the settings tab.
+    - Navigate to the pages section.
+    - From the source section, select Main Branch.
+    - Save (I have on occasion needed to rename the project and start again to receive an active link.)
+
+## Credits
+
+- [CodeCademy Forum](https://www.codecademy.com/) provided assistance with the game logic.
+- [Bro Codes](https://www.youtube.com/@BroCodez) also provided assistance with t
