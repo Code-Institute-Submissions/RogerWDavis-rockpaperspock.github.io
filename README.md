@@ -6,32 +6,36 @@ This site has been designed to target a younger audience during those in-between
 The user faces off against the maschine in this game of chance, and everything is simple and easy to navigate and understand. The colors chosen were intended to be relaxing and communicate low pressure. Just a fun way to cool off the brain for a few minutes.
 
 
-![responsiveness check photo](assets/images/responscheck.png)
+![responsiveness check photo](![Alt text](assets/responsive.PNG))
 
 ## Features
 
 ### Existing Features
 
-- Header
-    - The header acts as a simple and easy to read call to action.
-    - The font is clear and it is styled to flow harmoniously with the rest of the page.
+- Player Field
+    - Allows personalization.
+    - Displays the number of player wins.
+    - Glows eerily.
 
-![responsiveness check photo](assets/images/header.png)
+![responsiveness check photo](assets/player.PNG)
 
 - Game Options
     - The main game interface sits in the center of the and the user my choose of the five buttons to initiate the interactivity. 
     - The functionality is intuitive.
+    - Buttons glow eerily.
 
-![responsiveness check photo](assets/images/gamecontrols.png)
+![responsiveness check photo](assets/gamespace.PNG)
 
-- Game Results
-    - When a button is chosen, Javascript will capture the input and compare it to a randomly generated output by the Maschine. The result, and in this case winner, will be returned to the screen.
+- Maschine Field
+    - Displays maschine choices and maschine wins.
+    - Glows eerily.
 
 
 - Footer
     - The footer gives kind regards for engaging with the webpage.
+    - The footer also contains audio controls.
 
-![responsiveness check photo](assets/images/footer.png)
+![responsiveness check photo](assets/audiofooter.png)
 
 
 ## Testing
@@ -41,14 +45,15 @@ The user faces off against the maschine in this game of chance, and everything i
 - All text is readable.
 - Lighthouse scores can be found below.
 
-![responsiveness check photo](assets/images/lighthouse.png)
+![responsiveness check photo](![Alt text](assets/lighthouse.PNG))
 
 ### Validator Testing
 - No errors were returned when run through the W3C Validator
 - No errors were returned when run through the Jigsaw Validator
 - No errors were returned when run through JSHint
 
-![responsiveness check photo](assets/images/rpscodejshint.PNG)
+![responsiveness check photo](assets/htmlvalidator.PNG)
+![responsiveness check photo](assets/cssvalidator.PNG)
 
 ## Deployment
 
@@ -60,5 +65,6 @@ The user faces off against the maschine in this game of chance, and everything i
 
 ## Credits
 
-- [CodeCademy Forum](https://www.codecademy.com/) provided assistance with the game logic.
-- [Bro Codes](https://www.youtube.com/@BroCodez) also provided assistance with t
+- [Youtube Tutorial](https://www.youtube.com/watch?v=n1_vHArDBRA) provided switch logic.
+- [Thea Codepenl](https://codepen.io/HighFlyer/pen/WNXRZBv) provided neon hover effect.
+
