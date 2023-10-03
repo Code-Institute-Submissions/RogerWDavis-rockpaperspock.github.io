@@ -1,0 +1,162 @@
+/*Body Css*/
+body{
+    background-image: url("marble.jpg");
+    min-height: 100vh;
+    background-color: #050801;
+    color:#03e9f4;
+    font-family:cursive, sans-serif;  
+}
+
+/*Main Container*/
+.container{
+    min-height: 100vh;
+    display:grid;
+    grid-gap: 4rem;
+    grid-template-rows:auto 3fr 1fr;
+    
+}
+
+/*Header Css*/
+.header{
+    border-radius: .75em;
+    opacity: 80%;
+    display:grid;
+    grid-area: auto;
+    text-align: center;
+    background-color: #050801;
+    font-family: cursive, sans-serif;
+    color: #03e9f4;
+}
+
+.header:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
+/*Player Maschine Game Space*/
+.innergrid{
+    min-height: 100vh;
+    display:grid;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+
+}
+
+
+/*Player*/
+.item-1 {
+    border-radius: .75em;
+    opacity:75%;
+    text-align: center;
+    background-color: black;
+    max-height: 50vh;
+    min-height: 50vh;
+}
+
+.item-1:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+/*Game Space*/
+.item-2 {
+    border-radius: .75em;
+    opacity: 85%;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    max-height: 50vh;
+    min-height: 50vh;
+    display:grid;
+    grid-area: auto;
+    font-family: cursive, sans-serif;
+    justify-content: center;
+    border: transparent;
+    background-image: url("marble.jpg");
+    text-align: center;
+    color:#03e9f4;
+    font-weight: bold;
+}
+
+/*Maschine*/
+.item-3 {
+    border-radius: .75em;
+    opacity:75%;
+    text-align: center;
+    background-color: black;
+    max-height: 50vh;
+    min-height: 50vh;
+}
+
+.item-3:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+/*Footer Css*/
+.footer{
+    border-radius: .75em;
+    opacity: 85%;
+    bottom:0;
+    position: sticky;
+    margin-top: auto;
+    text-align: center;
+    color: #03e9f4;
+    background-color:#050801;
+    font-family: cursive, sans-serif;
+}
+
+/*Audio*/
+#audioContainer {
+    opacity: 5%;
+    position: fixed;
+    bottom: 0;
+}
+
+#audioContainer:hover{
+    opacity:15%;
+}
+
+/*Buttons Css*/
+.choosebtns{
+
+  padding: 25px 30px;
+  background-color: #050801;
+  color: #03e9f4;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.choosebtns:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
