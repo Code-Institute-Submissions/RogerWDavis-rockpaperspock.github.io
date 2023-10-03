@@ -7,6 +7,59 @@
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
 <body>
+    <!--Main Div Container-->
+    <div class="container">
+
+    <!--Header Div-->
+        <div class="grid-item header">
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+            <p>Click the buttons. Test your Luck. 
+        </div>
+
+    <!--Player-Maschine-Game Space Div-->
+        <div class="innergrid">
+
+    <!--Player  Div-->
+            <div class="grid-item item-1" id="playerdiv">
+                <h1 class="gamesout" id="playerout">Player:
+                <input type="text" id="name" name="name" maxlength="100" size="10" placeholder="Input Name" /><input type="submit" id="nameBtn"/></h1>
+                <p>No. of wins:<span id="pwin"></span></p>
+            </div>
+
+    <!--Game Space Div-->
+            <div class="grid-item item-2" id="gamespot">
+                <h1 class="gamesout" id="resultout">Result:</h1>
+                <button class="choosebtns" id="rock" onClick=" buttonClick(this.id)">Rock</button>
+                <button class="choosebtns" id="paper" onClick=" buttonClick(this.id)">Paper</button>
+                <button class="choosebtns" id="scissors" onClick=" buttonClick(this.id)">Scissors</button>
+                <button class="choosebtns" id="lizard" onClick=" buttonClick(this.id)">Lizard</button>
+                <button class="choosebtns" id="spock" onClick=" buttonClick(this.id)">Spock</button>
+            </div>
+
+        <!--Maschine Div-->
+            <div class="grid-item item-3" id="maschinediv">
+                <h1 class="gamesout" id="maschineout">Maschine:</h1>
+                <p>No. of wins:<span id="mwin"></span></p>
+            </div>
+            
+
+        </div>
     
+    <!--Footer-Audio Div-->
+        <div class="grid-item footer">
+            <!--Audio Div-->
+            <div id="audioContainer">
+                <audio controls autoplay>
+                  <source src="reflect.mp3" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+                </audio>
+            </div>
+                <h1>Evolution</h1>
+            </div>
+        </div>
+
+    <!--Java Script Div-->
+    <script src="script.js"></script>
+
 </body>
 </html>
