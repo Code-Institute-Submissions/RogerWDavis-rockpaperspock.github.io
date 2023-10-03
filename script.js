@@ -79,7 +79,7 @@ function checkWinner(){
         return "Draw!";
     }
     else if(player == "rock"){
-        return (maschine == "paper")?"You win!":"You lose!"
+        return (maschine == "scissors")?"You win!":"You lose!"
     }
     else if(player == "rock"){
         return (maschine == "lizard")?"You win!":"You lose!"
