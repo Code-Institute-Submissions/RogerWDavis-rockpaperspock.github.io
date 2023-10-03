@@ -1,6 +1,6 @@
 /*Body Css*/
 body{
-    background-image: url("marble.jpg");
+    background-image: url("assets/marble.jpg");
     min-height: 100vh;
     background-color: #050801;
     color:#03e9f4;
@@ -84,7 +84,7 @@ body{
     font-family: cursive, sans-serif;
     justify-content: center;
     border: transparent;
-    background-image: url("marble.jpg");
+    background-image: url("assets/marble.jpg");
     text-align: center;
     color:#03e9f4;
     font-weight: bold;
