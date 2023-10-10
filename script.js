@@ -59,7 +59,7 @@ document.getElementById("nameBtn").onclick = (event=>{
 //replace name function player 2
 document.getElementById("name2Btn").onclick = (event=>{
     document.getElementById("player2out").textContent=document.getElementById("name2").value+":";
-    name=document.getElementById("player2out").textContent;
+    name2=document.getElementById("player2out").textContent;
 });
 
 
@@ -188,34 +188,34 @@ function player2Move(){
 
     document.getElementById("rock2").addEventListener("click",(id)=>{
         player2="rock";
-        player2Speak.textContent = name + player2;
+        player2Speak.textContent = name2 + player2;
         checkWinner2();
         result=checkWinner2();
         resultSpeak.textContent = "Result:" + result;
     });
     document.getElementById("paper2").addEventListener("click",(id)=>{
         player2="paper";
-        player2Speak.textContent = name + player2;
+        player2Speak.textContent = name2 + player2;
         checkWinner2();
         result=checkWinner2();
         resultSpeak.textContent = "Result:" + result;
     });
     document.getElementById("scissors2").addEventListener("click",(id)=>{
         player2="scissors";
-        player2Speak.textContent = name + player2;
+        player2Speak.textContent = name2 + player2;
         result=checkWinner2();
         resultSpeak.textContent = "Result:" + result;
     });
     document.getElementById("lizard2").addEventListener("click",(id)=>{
         player2="lizard";
-        player2Speak.textContent = name + player2;
+        player2Speak.textContent = name2 + player2;
         checkWinner2();
         result=checkWinner2();
         resultSpeak.textContent = "Result:" + result;
     });
     document.getElementById("spock2").addEventListener("click",(id)=>{
         player2="spock";
-        player2Speak.textContent = name + player2;
+        player2Speak.textContent = name2 + player2;
         checkWinner2();
         result=checkWinner2();
         resultSpeak.textContent = "Result:" + result;
