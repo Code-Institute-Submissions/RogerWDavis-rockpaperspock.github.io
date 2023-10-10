@@ -1,19 +1,29 @@
 /*Body Css*/
 body{
-    background-image: url("assets/marble.jpg");
+    background-image: url("marble.jpg");
     min-height: 100vh;
     background-color: #050801;
     color:#03e9f4;
-    font-family:cursive, sans-serif;  
+    font-family:cursive;, sans-serif;
+    
 }
 
-/*Main Container*/
 .container{
     min-height: 100vh;
     display:grid;
     grid-gap: 4rem;
-    grid-template-rows:auto 3fr auto;
+    grid-template-rows:auto 3fr;
     
+}
+
+.innergrid{
+    min-height: 100vh;
+    display:grid;
+    grid-gap: 3rem;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+
 }
 
 /*Header Css*/
@@ -39,26 +49,13 @@ body{
 }
 
 
-/*Player Maschine Game Space*/
-.innergrid{
-    min-height: 100vh;
-    display:grid;
-    grid-gap: 4rem;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-
-}
-
-
-/*Player*/
 .item-1 {
     border-radius: .75em;
     opacity:75%;
     text-align: center;
     background-color: black;
-    max-height: 50vh;
-    min-height: 50vh;
+    max-height: 100vh;
+    min-height: 100vh;
 }
 
 .item-1:hover{
@@ -71,33 +68,29 @@ body{
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 
-/*Game Space*/
 .item-2 {
     border-radius: .75em;
     opacity: 85%;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    max-height: 50vh;
-    min-height: 50vh;
+    max-height: 25vh;
+    min-height: 25vh;
     display:grid;
     grid-area: auto;
     font-family: cursive, sans-serif;
     justify-content: center;
     border: transparent;
-    background-image: url("assets/marble.jpg");
+    background-image: url("marble.jpg");
     text-align: center;
     color:#03e9f4;
     font-weight: bold;
 }
 
-/*Maschine*/
 .item-3 {
     border-radius: .75em;
     opacity:75%;
     text-align: center;
     background-color: black;
-    max-height: 50vh;
-    min-height: 50vh;
+    max-height: 100vh;
+    min-height: 100vh;
 }
 
 .item-3:hover{
@@ -110,29 +103,70 @@ body{
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 
-/*Footer Css*/
-.footer{
+.item-4{
     border-radius: .75em;
-    opacity: 85%;
-    bottom:0;
-    position: sticky;
-    margin-top: auto;
+    opacity:75%;
     text-align: center;
-    color: #03e9f4;
-    background-color:#050801;
-    font-family: cursive, sans-serif;
+    background-color: black;
+    max-height: 100vh;
+    min-height: 100vh;
 }
 
-/*Audio*/
-#audioContainer {
-    opacity: 5%;
-    position: fixed;
-    bottom: 0;
+.item-4:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 
-#audioContainer:hover{
-    opacity:15%;
+.player2div<{
+    display:hide;
 }
+
+
+/*Modal Css*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  border-radius: .75em;  
+  background-color: #050801;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 /*Buttons Css*/
 .choosebtns{
