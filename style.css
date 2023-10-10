@@ -49,6 +49,7 @@ body{
 
 
 .item-1 {
+    display:grid;
     border-radius: .75em;
     opacity:75%;
     text-align: center;
@@ -103,6 +104,7 @@ body{
 }
 
 .item-4{
+    display:grid;
     border-radius: .75em;
     opacity:75%;
     text-align: center;
