@@ -2,63 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Rock Paper Scissors Lizard Spock</title>
+    <title>Document</title>
 </head>
-<body>
-    <!--Main Div Container-->
-    <div class="container">
 
-    <!--Header Div-->
+<body>
+
+    <div class="container" id="container">
+
         <div class="grid-item header">
             <h1>Rock Paper Scissors Lizard Spock</h1>
+            <button class="choosebtns" id="land">Reset</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary choosebtns" id="oBtn" data-bs-toggle="modal" data-bs-target="modal">Instructions</button>
+        </div>
+       
+        <div class="container1" id="container1">
+                <div>
+                    <h1>These are the rules</h1>
+                    <ul>
+                        <li>Scissors cuts paper.</li>
+                        <li>Paper covers rock.</li>
+                        <li>Rock crushes lizard.</li>
+                        <li>Lizard poisons Spock.</li>
+                        <li>Spock smashes scissors.</li>
+                        <li>Scissors decapitates lizard.</li>
+                        <li>Lizard eats paper.</li>
+                        <li>Paper disproves Spock.</li>
+                        <li>Spock vaporizes rock.</li>
+                        <li>Rock crushes scissors.</li>
+                    </ul>
+                </div>
+            <button class="choosebtns" id="containerbtn1">Start Single Player!!</button>
+            <button class="choosebtns" id="containerbtn2">Start Multi Player!!</button>
         </div>
 
-    <!--Player-Maschine-Game Space Div-->
-        <div class="innergrid">
 
-    <!--Player  Div-->
+        <div class="innergrid" id="container2" style="display:none">
+
+             
             <div class="grid-item item-1" id="playerdiv">
                 <h1 class="gamesout" id="playerout">Player:
-                <input type="text" id="name" name="name" maxlength="100" size="10" placeholder="Input Name"><input type="submit" id="nameBtn"></h1>
+                <input type="text" id="name" name="name" maxlength="100" size="10" placeholder="Input Name" /><input type="submit" id="nameBtn"/></h1>
                 <p>No. of wins:<span id="pwin"></span></p>
+                <button class="choosebtns" id="rock">Rock</button>
+                <button class="choosebtns" id="paper">Paper</button>
+                <button class="choosebtns" id="scissors">Scissors</button>
+                <button class="choosebtns" id="lizard">Lizard</button>
+                <button class="choosebtns" id="spock">Spock</button>
             </div>
 
-    <!--Game Space Div-->
             <div class="grid-item item-2" id="gamespot">
                 <h1 class="gamesout" id="resultout">Result:</h1>
-                <button class="choosebtns" id="rock" onClick=" buttonClick(this.id)">Rock</button>
-                <button class="choosebtns" id="paper" onClick=" buttonClick(this.id)">Paper</button>
-                <button class="choosebtns" id="scissors" onClick=" buttonClick(this.id)">Scissors</button>
-                <button class="choosebtns" id="lizard" onClick=" buttonClick(this.id)">Lizard</button>
-                <button class="choosebtns" id="spock" onClick=" buttonClick(this.id)">Spock</button>
             </div>
 
-        <!--Maschine Div-->
             <div class="grid-item item-3" id="maschinediv">
+                
                 <h1 class="gamesout" id="maschineout">Maschine:</h1>
                 <p>No. of wins:<span id="mwin"></span></p>
             </div>
-            
 
-        </div>
-    
-    <!--Footer-Audio Div-->
-        <div class="grid-item footer">
-            <!--Audio Div-->
-            <div id="audioContainer">
-                <audio controls autoplay>
-                  <source src="assets/reflect.mp3" type="audio/mpeg">
-                  Your browser does not support the audio tag.
-                </audio>
-            </div>
-                <h1>Evolution</h1>
+            <div hidden class="grid-item  item-4" id="player2div">
+                
+                <h1 class="gamesout" id="player2out">Player2:
+                <input type="text" id="name2" name="name2" maxlength="100" size="10" placeholder="Input Name" /><input type="submit" id="name2Btn"/></h1>
+                <p>No. of wins:<span id="p2win"></span></p>
+                <button class="choosebtns btns2" id="rock2">Rock</button>
+                <button class="choosebtns btns2" id="paper2">Paper</button>
+                <button class="choosebtns btns2" id="scissors2">Scissors</button>
+                <button class="choosebtns btns2" id="lizard2">Lizard</button>
+                <button class="choosebtns btns2" id="spock2">Spock</button>
             </div>
         </div>
 
-    <!--Java Script Div-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Instructions</h1>
+              </div>
+              <div class="modal-body">
+                <ul>
+                        <li>Scissors cuts paper.</li>
+                        <li>Paper covers rock.</li>
+                        <li>Rock crushes lizard.</li>
+                        <li>Lizard poisons Spock.</li>
+                        <li>Spock smashes scissors.</li>
+                        <li>Scissors decapitates lizard.</li>
+                        <li>Lizard eats paper.</li>
+                        <li>Paper disproves Spock.</li>
+                        <li>Spock vaporizes rock.</li>
+                        <li>Rock crushes scissors.</li>
+                    </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary choosebtns" id="cBtn" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <script src="script.js"></script>
-
 </body>
 </html>
