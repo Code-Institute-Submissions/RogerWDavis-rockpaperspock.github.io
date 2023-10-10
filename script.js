@@ -49,21 +49,6 @@ document.getElementById("containerbtn2").onclick = (event=>{
     multiPlayer();
 });
 
-//get main screen
-document.getElementById("land").onclick = (event=>{
-    function showContainer1(){
-        let a = document.getElementById("container1");
-        let b = document.getElementById("container2");
-        let c = document.getElementById("player2div");
-        let d = document.getElementById("maschinediv");
-        a.style.display="grid";
-        b.style.display="none";
-        c.hidden=true;
-        d.hidden=true;
-    }
-    showContainer1();
-});
-
 
 //replace name function player 1
 document.getElementById("nameBtn").onclick = (event=>{

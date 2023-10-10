@@ -14,7 +14,7 @@
 
         <div class="grid-item header">
             <h1>Rock Paper Scissors Lizard Spock</h1>
-            <button class="choosebtns" id="land">Reset</button>
+            <button class="choosebtns" id="land"onclick="window.location.reload();">Reset</button>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary choosebtns" id="oBtn" data-bs-toggle="modal" data-bs-target="modal">Instructions</button>
         </div>
@@ -75,18 +75,23 @@
                 <button class="choosebtns btns2" id="lizard2">Lizard</button>
                 <button class="choosebtns btns2" id="spock2">Spock</button>
             </div>
+
         </div>
 
 
         <!-- Modal -->
         <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-          <div class="modal-dialog">
+
+          
             <div class="modal-content">
+
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Instructions</h1>
               </div>
-              <div class="modal-body">
-                <ul>
+
+              <div class="modal-dialog">
+                <div class="modal-body">
+                    <ul>
                         <li>Scissors cuts paper.</li>
                         <li>Paper covers rock.</li>
                         <li>Rock crushes lizard.</li>
@@ -98,10 +103,12 @@
                         <li>Spock vaporizes rock.</li>
                         <li>Rock crushes scissors.</li>
                     </ul>
-              </div>
+                </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary choosebtns" id="cBtn" data-bs-dismiss="modal">Close</button>
               </div>
+
             </div>
           </div>
         </div>
