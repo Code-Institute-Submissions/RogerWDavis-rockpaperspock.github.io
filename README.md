@@ -65,13 +65,15 @@ The user faces off against the maschine in this game of chance, and everything i
 - The page was opened in the Google, Microsoft Edge and Google for Android browsers and the site navigation was tested. 
 - The single player mode button toggles the landing page with single player view.
 - The multi-player mode button toggles the landing page with multi-player player view.
-- The reset button returns user from both the single player and multi-player views to the landing page.
+- The reset button returns user from both the single player and multi-player views to the landing page and resets game.
 - The single player mode button toggles the landing page with single player view.
-- Instructions modal butto functions in all three views.
+- Instructions modal button functions in all three views.
 
 ### Test Case 2: Game Logic
 
 - The page was opened in the Google, Microsoft Edge and Google for Android browsers and the game logic was tested.
+- Player vs computer logic is accurate.
+- player vs player logic is accurate.
 - All button actions are accurate.
 - Score count is accurate.
 - Name personalization works in single and multiplayer views.
