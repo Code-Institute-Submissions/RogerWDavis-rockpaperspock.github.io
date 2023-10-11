@@ -7,6 +7,8 @@ let maschineSpeak = document.getElementById("maschineout");
 let resultSpeak = document.getElementById("resultout");
 
 //variables for buttonClick functions
+let name="player1:"
+let name2="player2:"
 let player2;
 let result;
 let player;
