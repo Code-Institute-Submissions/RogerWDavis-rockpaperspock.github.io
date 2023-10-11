@@ -42,7 +42,7 @@ document.getElementById("containerbtn2").onclick = (event=>{
         let d = document.getElementById("maschinediv");
         a.style.display="none";
         b.style.display="grid";
-        c.hidden=false;
+        c.style.display="grid";;
         d.hidden=true;
     }
     showContainer2();
