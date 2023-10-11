@@ -195,8 +195,32 @@ body{
 
 @media only screen and (max-width: 480px) {
     .choosebtns { 
-    display: grid;
+    display:grid;
     grid-area:auto;
      font-size: 10px; 
     }
   }
+
+   @media only screen and (min-width: 2560px) {
+    body { 
+    display:grid;
+    grid-area:auto;
+     font-size: 50px; 
+    }
+
+    .choosebtns{
+        font-size: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    body { 
+        display:grid;
+        grid-area:auto;
+         font-size: 20px; 
+        }
+    
+        .choosebtns{
+            font-size: 10px;
+        }
+      }
