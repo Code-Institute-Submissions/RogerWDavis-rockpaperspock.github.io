@@ -338,7 +338,7 @@ function checkWinner(){
         return "You win!";
     }
     else if(player=="lizard" && maschine=="scissors"){
-        return "You win!";
+        return "You lose!";
     }
     else if(player=="lizard" && maschine=="spock"){
         return "You win!";
