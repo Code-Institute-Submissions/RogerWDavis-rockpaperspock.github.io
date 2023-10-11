@@ -41,8 +41,21 @@ The user faces off against the maschine in this game of chance, and everything i
 ![scoreboard photo](assets/scoreboard.jpg)
 
 
+## Technologies used:
+* HTML5
+  * This Website was developed using HTML5.
 
+* CSS3 
+  * This Website was styled using CSS in an external file.
 
+* JavaScript
+  * JavaScript was used in this website to make the site more interactive
+
+* Gitpod
+  * This Website was developed using Gitpod IDE
+
+* Bootstrap
+  * This Website was developed using Bootstrap components
 
 
 ## Testing
@@ -77,6 +90,7 @@ The user faces off against the maschine in this game of chance, and everything i
     * Laptop - 2560px 
 
 ![mobile responsiveness photo](assets/mresponse.jpg)
+![mobile responsiveness photo](assets/lresponse.jpg)
 
 
 ### Lighthouse Test
@@ -130,6 +144,7 @@ By forking the GitHub Repository we make a copy of the original repository by us
 - Google was used extensively for troubleshooting.
 - [W3Schools](https://www.w3schools.com/) was used extensively for troubleshooting.
 - [Stackoverflow](https://stackoverflow.com/) was used extensively for troubleshooting.
+- [Bootstrap](https://getbootstrap.com/docs/5.2/components/modal/) was used for the instructions Modal.
 
 
 
