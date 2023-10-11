@@ -36,7 +36,7 @@ The user faces off against the maschine in this game of chance, and everything i
 ![Instructions modal](assets/modal.jpg)
 
 - Scoreboard
-    - Users can keep trac of their scores. 
+    - Users can keep track of their scores. 
 
 ![scoreboard photo](assets/scoreboard.jpg)
 
@@ -47,8 +47,18 @@ The user faces off against the maschine in this game of chance, and everything i
 
 ## Testing
 
-- The page has been tested in multiple browsers.
-- The page returns the correct responses, reliably.
+### Test Case 1: Navigation
+
+- The page was opened in the Google and Microsoft Edge browsers and the site navigation was tested. 
+- The single player mode button toggles the landing page with single player view.
+- The multi-player mode button toggles the landing page with multi-player player view.
+- The reset button returns user from both the single player and multi-player views to the landing page.
+- The single player mode button toggles the landing page with single player view.
+- Instructions modal butto functions in all three views.
+
+### Test Case 2: Game Logic
+
+- The page was opened in the Google and Microsoft Edge browsers and the game logic was tested.
 - All text is readable.
 - Lighthouse scores can be found below.
 
